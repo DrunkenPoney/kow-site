@@ -20,5 +20,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 56px);
+
+  img {
+    max-width: 100vw;
+  }
 }
 </style>
