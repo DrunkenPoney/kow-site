@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/functions';
+
+$enable-responsive-font-sizes: true;
+$enable-shadows: true;
+
+$body-bg: #212529;
+$body-color: #fff;
+$dark: lighten($body-bg, 3%);
+@import '~bootstrap/scss/variables';
+
+@import './bs-overrides/accordion';
+@import '~bootstrap/scss/bootstrap';
+
+::-webkit-scrollbar {
+  background-color: shade-color($primary, 80%);
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: shade-color($primary, 50%);
+}
