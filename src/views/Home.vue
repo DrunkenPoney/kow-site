@@ -18,5 +18,6 @@ body {
 .home {
   display: flex;
   justify-content: center;
+  min-height: calc(100vh - 56px);
 }
 </style>
