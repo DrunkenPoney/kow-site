@@ -1,6 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Welcome to Your Vue.js App</h1>
+    <img alt="Vue logo" src="../assets/4HM.png">
   </div>
 </template>
+
+<script>
+</script>
+
+<style lang="scss">
+body {
+  background-image: url('../assets/Four-Horsemen-of-the-Apocalypse.jpg');
+  background-attachment: fixed;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+</style>
