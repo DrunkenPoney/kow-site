@@ -12,6 +12,7 @@ body {
   background-image: url('../assets/Four-Horsemen-of-the-Apocalypse.jpg');
   background-attachment: fixed;
   background-origin: border-box;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
