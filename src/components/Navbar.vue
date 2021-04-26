@@ -69,5 +69,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-
+nav {
+  z-index: 9000;
+}
 </style>
