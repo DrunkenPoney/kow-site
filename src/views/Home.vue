@@ -1,29 +1,22 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/4HM.png">
-  </div>
+  <img alt="Vue logo" src="../assets/4HM.png">
 </template>
 
 <script>
 </script>
 
-<style lang="scss">
-body {
-  background-image: url('../assets/Four-Horsemen-of-the-Apocalypse.jpg');
-  background-attachment: fixed;
-  background-origin: border-box;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 56px);
+<style lang="scss" scoped>
+img {
+  max-width: 100%;
+  max-height: 100%;
 
-  img {
-    max-width: 100vw;
-  }
+  position: absolute;
+  display: block;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 </style>

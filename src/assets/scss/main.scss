@@ -19,3 +19,6 @@ $dark: lighten($body-bg, 3%);
 ::-webkit-scrollbar-thumb {
   background-color: shade-color($primary, 50%);
 }
+
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }

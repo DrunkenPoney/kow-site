@@ -3,7 +3,7 @@ import Home from '@/views/Home.vue'
 
 const routes = [ {
   path: '/',
-  name: 'Home',
+  name: 'home',
   component: Home
 }, {
   path: '/about',
@@ -28,6 +28,10 @@ const routes = [ {
   path: '/guides/win-poker',
   name: 'Win Poker',
   component: () => import(/* webpackChunkName: "guides-win-poker" */ '@/views/guides/WinPoker')
+}, {
+  path: '/guides/hq-requirements',
+  name: 'HQ Requirements',
+  component: () => import(/* webpackChunkName: "guides-hq-requirements" */ '@/views/guides/HQRequirements')
 }]
 
 const router = createRouter({

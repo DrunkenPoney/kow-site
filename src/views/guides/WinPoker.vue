@@ -19,10 +19,13 @@ export default {
 
 <style lang="scss" scoped>
 .ratio-9x16 {
-  --bs-aspect-ratio: calc(16 / 9 * 100%);
+  --bs-aspect-ratio: 16 / 9 * 100%;
+  //&:before {
+    //padding-top: 9 / 16 * 100%;
+  //}
 }
 
 .video-wrapper {
-  max-height: 80vh;
+  height: 80vh;
 }
 </style>
