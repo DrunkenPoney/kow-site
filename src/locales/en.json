@@ -1,0 +1,18 @@
+{
+  "language": {
+    "flag": "us",
+    "name": "English"
+  },
+  "navbar": {
+    "home": "Home",
+    "guides": "Guides & Tips",
+    "guides_officers": "Officers",
+    "guides_easy-troop-speed-ups": "Easy troop speed ups",
+    "guides_march-speed": "March speed",
+    "guides_always-win-poker": "Always win poker",
+    "guides_hq-requirements": "HQ requirements",
+    "interactive-map": "Interactive Map"
+  },
+  "pages": {
+  }
+}
