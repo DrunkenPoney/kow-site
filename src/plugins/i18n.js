@@ -4,9 +4,6 @@ import { createI18n } from 'vue-i18n'
 import { nextTick, readonly } from 'vue'
 import en from '@/locales/en.json'
 
-// noinspection JSUnresolvedVariable
-export const SUPPORTED_LOCALES = __WEBPACK_SUPPORTED_LOCALES__
-
 export const i18n = setI18nLanguage(createI18n({
   locale: 'en',
   messages: { en }

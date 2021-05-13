@@ -33,6 +33,10 @@ const routes = [{
   name: 'guides_hq-requirements',
   path: '/:lang([a-z]{2})?/guides/hq-requirements',
   component: () => import(/* webpackChunkName: "guides_hq-requirements" */ '@/views/guides/HQRequirements')
+}, {
+  name: 'ke-rules',
+  path: '/:lang([a-z]{2})?/guides/ke-rules',
+  component: () => import(/* webpackChunkName: "ke-rules" */ '@/views/KERules')
 }]
 
 const router = createRouter({

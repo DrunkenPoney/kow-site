@@ -82,6 +82,9 @@ export default defineComponent({
           to: this.routeTo('guides_hq-requirements')
         } ]
       }, {
+        label: 'navbar.ke-rules',
+        to: this.routeTo('ke-rules'),
+      }, {
         label: 'navbar.interactive-map',
         external: true,
         href: 'https://kow-map.onrender.com/'
